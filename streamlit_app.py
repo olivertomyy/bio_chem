@@ -110,7 +110,7 @@ def get_fallback_exam_questions():
     return [
    
 
-  [
+  
   {
     "id": 1,
     "topic": "Carbohydrates",
@@ -532,7 +532,7 @@ def get_fallback_exam_questions():
     "explanation": "Excess carbohydrates in the diet are converted into lipids and stored in adipose tissue, which can lead to obesity."
   }
 ]
-]
+
 
 
 def analyze_exam_topics(questions):
