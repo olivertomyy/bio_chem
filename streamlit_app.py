@@ -110,20 +110,428 @@ def get_fallback_exam_questions():
     return [
    
 
+  [
   {
     "id": 1,
-    "topic": "Stoichiometry",
-    "question": "Sodium and chlorine react to form sodium chloride: What is the theoretical yield of sodium chloride for the reaction of 55.0 g Na with 67.2 g Cl2?",
+    "topic": "Carbohydrates",
+    "question": "Which general formula represents carbohydrates?",
     "options": {
-      "A": "1.40 × 10² g NaCl",
-      "B": "111 g NaCl",
-      "C": "55.4 g NaCl",
-      "D": "222 g NaCl"
+      "A": "(CH2O)n",
+      "B": "CnHnO2",
+      "C": "C2H5OH",
+      "D": "CH4"
+    },
+    "correct_answer": "A",
+    "page": 1,
+    "explanation": "Carbohydrates typically have the general empirical formula (CH2O)n, where 'n' is the number of carbon atoms."
+  },
+  {
+    "id": 2,
+    "topic": "Carbohydrates",
+    "question": "Fischer projection represents carbohydrates in:",
+    "options": {
+      "A": "Cyclic form",
+      "B": "Open chain form",
+      "C": "Branched form",
+      "D": "Crystalline form"
     },
     "correct_answer": "B",
     "page": 1,
-    "explanation": "Calculate moles: Na = 55/23 = 2.39 mol; Cl2 = 67.2/70.9 = 0.948 mol. Reaction: 2Na + Cl2 -> 2NaCl. Na required for 0.948 mol Cl2 is 1.896 mol. We have 2.39 mol Na, so Cl2 is limiting. Moles NaCl formed = 2 * 0.948 = 1.896 mol. Mass = 1.896 * 58.44 = 110.8 g."
+    "explanation": "Fischer projections are standard 2D representations used to depict the open-chain structure of sugar molecules."
+  },
+  {
+    "id": 3,
+    "topic": "Carbohydrates",
+    "question": "Haworth projection represents carbohydrates in:",
+    "options": {
+      "A": "Open chain form",
+      "B": "Cyclic form",
+      "C": "Hydrated form",
+      "D": "Branched form"
+    },
+    "correct_answer": "B",
+    "page": 1,
+    "explanation": "Haworth projections are used to represent the cyclic (ring) structure of monosaccharides."
+  },
+  {
+    "id": 4,
+    "topic": "Carbohydrates",
+    "question": "Glucose, galactose, and fructose are:",
+    "options": {
+      "A": "Polymers",
+      "B": "Isomers",
+      "C": "Enzymes",
+      "D": "Hormones"
+    },
+    "correct_answer": "B",
+    "page": 1,
+    "explanation": "These sugars share the same molecular formula (C6H12O6) but differ in atomic arrangement, making them structural isomers."
+  },
+  {
+    "id": 5,
+    "topic": "Carbohydrates",
+    "question": "A sugar with an aldehyde group is:",
+    "options": {
+      "A": "Ketose",
+      "B": "Aldose",
+      "C": "Disaccharide",
+      "D": "Polysaccharide"
+    },
+    "correct_answer": "B",
+    "page": 1,
+    "explanation": "Monosaccharides containing an aldehyde group (-CHO) at the end of the carbon chain are classified as aldoses."
+  },
+  {
+    "id": 6,
+    "topic": "Carbohydrates",
+    "question": "The major energy molecule formed from glucose is:",
+    "options": {
+      "A": "ATP",
+      "B": "DNA",
+      "C": "RNA",
+      "D": "FADH2"
+    },
+    "correct_answer": "A",
+    "page": 2,
+    "explanation": "During cellular respiration, glucose is broken down to produce Adenosine Triphosphate (ATP), the primary energy carrier in cells."
+  },
+  {
+    "id": 7,
+    "topic": "Carbohydrates",
+    "question": "The alpha form of glucose has its OH on carbon-1:",
+    "options": {
+      "A": "Above the ring",
+      "B": "Below the ring",
+      "C": "On the side chain",
+      "D": "Absent"
+    },
+    "correct_answer": "B",
+    "page": 2,
+    "explanation": "In alpha-glucose, the hydroxyl (-OH) group on the anomeric carbon (C1) is positioned below the ring plane (trans to the CH2OH group)."
+  },
+  {
+    "id": 8,
+    "topic": "Carbohydrates",
+    "question": "Disaccharides are formed through:",
+    "options": {
+      "A": "Hydrolysis",
+      "B": "Dehydration synthesis",
+      "C": "Combustion",
+      "D": "Oxidation"
+    },
+    "correct_answer": "B",
+    "page": 2,
+    "explanation": "Disaccharides form when two monosaccharides join via a glycosidic bond, releasing a water molecule in a process called dehydration synthesis."
+  },
+  {
+    "id": 9,
+    "topic": "Carbohydrates",
+    "question": "A glycosidic bond connects:",
+    "options": {
+      "A": "Two proteins",
+      "B": "Two lipids",
+      "C": "Two monosaccharides",
+      "D": "A lipid and a sugar"
+    },
+    "correct_answer": "C",
+    "page": 2,
+    "explanation": "A glycosidic bond is the covalent linkage formed between the hemiacetal or hemiketal group of a saccharide and the hydroxyl group of another compound (usually another monosaccharide)."
+  },
+  {
+    "id": 10,
+    "topic": "Carbohydrates",
+    "question": "Lactose consists of:",
+    "options": {
+      "A": "Glucose + glucose",
+      "B": "Glucose + galactose",
+      "C": "Glucose + fructose",
+      "D": "Galactose + fructose"
+    },
+    "correct_answer": "B",
+    "page": 2,
+    "explanation": "Lactose (milk sugar) is a disaccharide composed of one glucose molecule and one galactose molecule linked by a beta-1,4-glycosidic bond."
+  },
+  {
+    "id": 11,
+    "topic": "Carbohydrates",
+    "question": "Starch is made up of:",
+    "options": {
+      "A": "Amylose and cellulose",
+      "B": "Amylose and amylopectin",
+      "C": "Cellulose and glycogen",
+      "D": "Maltose and sucrose"
+    },
+    "correct_answer": "B",
+    "page": 3,
+    "explanation": "Starch is a polysaccharide composed of two types of alpha-glucose polymers: linear amylose and branched amylopectin."
+  },
+  {
+    "id": 12,
+    "topic": "Carbohydrates",
+    "question": "Glycogen is stored mainly in:",
+    "options": {
+      "A": "Bones",
+      "B": "Skin",
+      "C": "Liver and muscles",
+      "D": "Pancreas"
+    },
+    "correct_answer": "C",
+    "page": 3,
+    "explanation": "In animals, glycogen is primarily stored in the liver (for blood glucose regulation) and skeletal muscles (for local energy)."
+  },
+  {
+    "id": 13,
+    "topic": "Carbohydrates",
+    "question": "Cellulose contains:",
+    "options": {
+      "A": "α 1-4 linkages",
+      "B": "β 1-4 linkages",
+      "C": "α 1-6 linkages",
+      "D": "β 1-6 linkages"
+    },
+    "correct_answer": "B",
+    "page": 3,
+    "explanation": "Cellulose is a linear polymer of glucose units connected by beta (β) 1-4 glycosidic bonds."
+  },
+  {
+    "id": 14,
+    "topic": "Carbohydrates",
+    "question": "Humans cannot digest cellulose because:",
+    "options": {
+      "A": "It contains no glucose",
+      "B": "It is too large",
+      "C": "Humans lack cellulase",
+      "D": "It is poisonous"
+    },
+    "correct_answer": "C",
+    "page": 3,
+    "explanation": "Humans lack the enzyme cellulase required to hydrolyze the beta 1-4 linkages found in cellulose."
+  },
+  {
+    "id": 15,
+    "topic": "Carbohydrates",
+    "question": "Chitin is composed of:",
+    "options": {
+      "A": "N-acetylglucosamine",
+      "B": "Maltose units",
+      "C": "Sucrose units",
+      "D": "Fructose units"
+    },
+    "correct_answer": "A",
+    "page": 3,
+    "explanation": "Chitin is a structural polysaccharide composed of repeating units of N-acetylglucosamine (a derivative of glucose)."
+  },
+  {
+    "id": 16,
+    "topic": "Carbohydrates",
+    "question": "Amino sugars have an OH group replaced by:",
+    "options": {
+      "A": "COOH",
+      "B": "NH2",
+      "C": "SH",
+      "D": "CH3"
+    },
+    "correct_answer": "B",
+    "page": 4,
+    "explanation": "In amino sugars, a hydroxyl group (-OH) is replaced by an amine group (-NH2)."
+  },
+  {
+    "id": 17,
+    "topic": "Carbohydrates",
+    "question": "The A blood group antigen has which dominant sugar?",
+    "options": {
+      "A": "Glucose",
+      "B": "Mannose",
+      "C": "D-galactose",
+      "D": "N-acetylgalactosamine"
+    },
+    "correct_answer": "D",
+    "page": 4,
+    "explanation": "The specific immunodominant sugar responsible for blood group A specificity is N-acetylgalactosamine."
+  },
+  {
+    "id": 18,
+    "topic": "Carbohydrates",
+    "question": "Polysaccharides are generally:",
+    "options": {
+      "A": "Sweet",
+      "B": "Insoluble in water",
+      "C": "Low molecular weight",
+      "D": "Crystals"
+    },
+    "correct_answer": "B",
+    "page": 4,
+    "explanation": "Polysaccharides are large, complex molecules that are typically not sweet and are often insoluble in water due to their high molecular weight."
+  },
+  {
+    "id": 19,
+    "topic": "Carbohydrates",
+    "question": "A homopolysaccharide contains:",
+    "options": {
+      "A": "Different sugars",
+      "B": "One type of monosaccharide",
+      "C": "Amino acids",
+      "D": "Lipids"
+    },
+    "correct_answer": "B",
+    "page": 4,
+    "explanation": "Homopolysaccharides are formed from the polymerization of a single type of monosaccharide monomer."
+  },
+  {
+    "id": 20,
+    "topic": "Carbohydrates",
+    "question": "Inulin consists mainly of:",
+    "options": {
+      "A": "Glucose units",
+      "B": "Fructose units",
+      "C": "Ribose units",
+      "D": "Galactose units"
+    },
+    "correct_answer": "B",
+    "page": 4,
+    "explanation": "Inulin is a storage polysaccharide found in some plants, consisting primarily of fructose chains."
+  },
+  {
+    "id": 21,
+    "topic": "Carbohydrates",
+    "question": "The most abundant biopolymer on Earth is:",
+    "options": {
+      "A": "Starch",
+      "B": "Cellulose",
+      "C": "Chitin",
+      "D": "Glycogen"
+    },
+    "correct_answer": "B",
+    "page": 5,
+    "explanation": "Cellulose, which forms the primary structural component of plant cell walls, is considered the most abundant organic polymer on Earth."
+  },
+  {
+    "id": 22,
+    "topic": "Carbohydrates",
+    "question": "Starch digestion begins in the:",
+    "options": {
+      "A": "Stomach",
+      "B": "Mouth",
+      "C": "Liver",
+      "D": "Small intestine"
+    },
+    "correct_answer": "B",
+    "page": 5,
+    "explanation": "Digestion of starch starts in the mouth with the action of the enzyme salivary amylase."
+  },
+  {
+    "id": 23,
+    "topic": "Carbohydrates",
+    "question": "The ring form of glucose predominates in solution at:",
+    "options": {
+      "A": "Less than 10 percent",
+      "B": "About 50 percent",
+      "C": "Over 99 percent",
+      "D": "Never forms"
+    },
+    "correct_answer": "C",
+    "page": 5,
+    "explanation": "In an aqueous solution, glucose exists in equilibrium, but over 99% is in the cyclic (pyranose) form rather than the open chain."
+  },
+  {
+    "id": 24,
+    "topic": "Carbohydrates",
+    "question": "Maltose consists of:",
+    "options": {
+      "A": "Two glucose molecules",
+      "B": "Glucose + fructose",
+      "C": "Fructose + galactose",
+      "D": "Glucose + mannose"
+    },
+    "correct_answer": "A",
+    "page": 5,
+    "explanation": "Maltose is a disaccharide formed by two glucose units joined by an alpha-1,4-glycosidic bond."
+  },
+  {
+    "id": 25,
+    "topic": "Carbohydrates",
+    "question": "A ketose sugar contains its carbonyl group:",
+    "options": {
+      "A": "At the terminal carbon",
+      "B": "In the middle of the carbon chain",
+      "C": "At carbon-1",
+      "D": "On a side chain only"
+    },
+    "correct_answer": "B",
+    "page": 5,
+    "explanation": "Ketoses have a ketone group (C=O) located within the carbon chain (usually at C2), whereas aldoses have it at the terminal end."
+  },
+  {
+    "id": 26,
+    "topic": "Carbohydrates",
+    "question": "Hyaluronic acid is a:",
+    "options": {
+      "A": "Homopolysaccharide",
+      "B": "Disaccharide",
+      "C": "Heteropolysaccharide",
+      "D": "Protein"
+    },
+    "correct_answer": "C",
+    "page": 6,
+    "explanation": "Hyaluronic acid is a heteropolysaccharide (specifically a glycosaminoglycan) made of alternating units of N-acetylglucosamine and glucuronic acid."
+  },
+  {
+    "id": 27,
+    "topic": "Carbohydrates",
+    "question": "Glycogen is structurally similar to:",
+    "options": {
+      "A": "Cellulose",
+      "B": "Amylopectin",
+      "C": "Amylose",
+      "D": "Ribose"
+    },
+    "correct_answer": "B",
+    "page": 6,
+    "explanation": "Glycogen is structurally very similar to amylopectin (both are branched glucose polymers), though glycogen is more extensively branched."
+  },
+  {
+    "id": 28,
+    "topic": "Carbohydrates",
+    "question": "The linkage in amylose is:",
+    "options": {
+      "A": "α 1-6",
+      "B": "β 1-4",
+      "C": "α 1-4",
+      "D": "β 1-6"
+    },
+    "correct_answer": "C",
+    "page": 6,
+    "explanation": "Amylose is a linear polymer of glucose units linked by alpha (α) 1-4 glycosidic bonds."
+  },
+  {
+    "id": 29,
+    "topic": "Carbohydrates",
+    "question": "Mucopolysaccharides are also called:",
+    "options": {
+      "A": "Lipoproteins",
+      "B": "Glycosaminoglycans",
+      "C": "Phospholipids",
+      "D": "Steroids"
+    },
+    "correct_answer": "B",
+    "page": 6,
+    "explanation": "'Mucopolysaccharides' is an older term for Glycosaminoglycans (GAGs), which are long unbranched polysaccharides."
+  },
+  {
+    "id": 30,
+    "topic": "Carbohydrates",
+    "question": "Excess carbohydrate intake may lead to:",
+    "options": {
+      "A": "Obesity",
+      "B": "Increased immunity",
+      "C": "Rapid height growth",
+      "D": "Stronger bones"
+    },
+    "correct_answer": "A",
+    "page": 6,
+    "explanation": "Excess carbohydrates in the diet are converted into lipids and stored in adipose tissue, which can lead to obesity."
   }
+]
 ]
 
 
